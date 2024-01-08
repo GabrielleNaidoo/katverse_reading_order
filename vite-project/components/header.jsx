@@ -7,10 +7,10 @@ function Header() {
       <h1 className="header_title">THE KATVERSE</h1>
       <p className="header_subtitle">READING ORDER</p>
       <p className="header_paragraph">
-        standard chunk of Lorem Ipsum used since the 1500s is reproduced below
-        for those interested. Sections 1.10.32 and standard chunk of Lorem Ipsum
-        used since the 1500s is reproduced below for those interested. Sections
-        1.10.32 and
+        Welcome to the Katverse! This is the official advised reading order for
+        the Katverse. While the order in which you read the series may differ,
+        this is the best way to begin your journey into the world of
+        Post-Cataclysm Earth.
       </p>
     </div>
   );
