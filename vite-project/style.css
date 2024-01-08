@@ -1,3 +1,53 @@
-h1 {
-  color: blue;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1a1a1a;
+  position: relative;
+}
+
+/*Navbar*/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  font-size: 1.1rem;
+
+  padding: 2rem 2rem;
+  background-color: #444;
+  color: #ffffff; /*remove when placing switch in*/
+}
+
+.navbar_left {
+}
+.navbar_link {
+  text-decoration: none;
+  color: #ffffff;
+}
+.navbar_right {
+}
+/*Header*/
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  color: #ffffff;
+  padding: 6rem 0;
+}
+.header_title {
+  font-size: 2.5rem;
+  margin-bottom: 0.4rem;
+}
+.header_subtitle {
+  font-size: 1.5rem;
+}
+.header_paragraph {
+  font-size: 1.1rem;
+  margin-top: 2rem;
 }
