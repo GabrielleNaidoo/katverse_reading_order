@@ -1,4 +1,4 @@
-const bookData = [
+export const bookData = [
   {
     series: "KD",
     length: "short story",
@@ -227,6 +227,6 @@ const bookData = [
     ebook: "https://books2read.com/u/3kBqXL",
     description: "Cindy Giles still hasn’t recovered from events seven years prior, but time waits for no one as she is once again thrust into the role of demon slayer and detective, after an infernal prophecy promises to plunge the world into darkness."
   },
-
-
 ]
+
+export default bookData;

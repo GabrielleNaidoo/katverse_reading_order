@@ -7,6 +7,7 @@
 body {
   background-color: #1a1a1a;
   position: relative;
+  font-family: "Lora", sans-serif;
 }
 
 /*Navbar*/
@@ -15,7 +16,6 @@ body {
   justify-content: space-between;
   align-items: center;
   position: sticky;
-  font-size: 1.1rem;
 
   padding: 2rem 2rem;
   background-color: #444;
@@ -23,13 +23,17 @@ body {
 }
 
 .navbar_left {
+  font-size: 1.1rem;
 }
 .navbar_link {
   text-decoration: none;
   color: #ffffff;
 }
 .navbar_right {
+  display: flex;
+  gap: 1rem;
 }
+
 /*Header*/
 
 .header {
@@ -38,9 +42,10 @@ body {
   align-items: center;
 
   color: #ffffff;
-  padding: 6rem 0;
+  padding: 8rem 0;
 }
 .header_title {
+  font-family: "Playfair Display SC", sans-serif;
   font-size: 2.5rem;
   margin-bottom: 0.4rem;
 }
