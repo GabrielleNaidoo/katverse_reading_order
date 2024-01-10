@@ -3,12 +3,26 @@ import ReactDOM from "react-dom/client";
 import Header from "/components/header.jsx";
 import BookComponent from "/components/book.jsx";
 import bookData from "/data.js";
-import { Switch, FormControlLabel, Typography } from "@mui/material";
+import { Button, Switch, FormControlLabel, Typography } from "@mui/material";
+import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
 import styled from "@emotion/styled";
 
 const StyledSwitch = styled(Switch)`
   && {
     transform: scale(1.3);
+  }
+`;
+const StyledButton = styled(Button)`
+  && {
+    background-color: #444;
+    border-radius: 0.3rem;
+    border: 0.5px solid #fff;
+  }
+`;
+const StyledArrowUpwardIcon = styled(ArrowUpwardIcon)`
+  && {
+    color: #ffffff;
+    height: 4rem;
   }
 `;
 
@@ -35,6 +49,13 @@ function App() {
   useEffect(() => {
     console.log(state);
   }, [state]);
+
+  function scrollToTopHandler() {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }
 
   return (
     <>
@@ -97,7 +118,21 @@ function App() {
       </div>
       <Header />
       <div className="box">
-        <div className="books_container">{books}</div>
+        <div className="books_container">
+          {!state.KD && !state.CG && !state.shortStories && (
+            <div className="default_text">
+              Oopsie! The gremlins have stolen all the books in the Katverse.
+              Quickly select one of the amazing Katverse Series above to save
+              the world from another Cataclysm.
+            </div>
+          )}
+          {books}
+        </div>
+      </div>
+      <div className="back_to_top">
+        <StyledButton onClick={scrollToTopHandler}>
+          <StyledArrowUpwardIcon className="arrow_icon" />
+        </StyledButton>
       </div>
     </>
   );

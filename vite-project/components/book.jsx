@@ -1,4 +1,4 @@
-import React from "react";
+import { useEffect, useRef } from "react";
 import ReactDOM from "react-dom/client";
 import { Button } from "@mui/material";
 import styled from "@emotion/styled";
@@ -9,11 +9,15 @@ const StyledButton = styled(Button)`
     border: 1px solid #fff;
     padding: 1rem 4rem;
     transform: scale(1);
-    transition: transform 0.3s ease-in-out;
+    opacity: 1;
   }
 
   :hover {
     transform: scale(1.1);
+  }
+
+  &.fade {
+    opacity: 1;
   }
 `;
 
