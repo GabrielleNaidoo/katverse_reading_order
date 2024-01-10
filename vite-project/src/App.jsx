@@ -11,7 +11,13 @@ const StyledSwitch = styled(Switch)`
   && {
     transform: scale(1.3);
   }
+  @media only screen and (min-width: 375px) and (max-width: 600px) {
+    && {
+      transform: scale(1.12);
+    }
+  }
 `;
+
 const StyledButton = styled(Button)`
   && {
     background-color: #444;
@@ -76,7 +82,11 @@ function App() {
               ></StyledSwitch>
             }
             label={
-              <Typography variant="body2" style={{ fontFamily: "Lora" }}>
+              <Typography
+                className="switch_label"
+                variant="body2"
+                style={{ fontFamily: "Lora" }}
+              >
                 KAT DRUMMOND
               </Typography>
             }
@@ -92,7 +102,13 @@ function App() {
               ></StyledSwitch>
             }
             label={
-              <Typography variant="body2" style={{ fontFamily: "Lora" }}>
+              <Typography
+                className="switch_label"
+                variant="body2"
+                style={{
+                  fontFamily: "Lora",
+                }}
+              >
                 CINDY GILES
               </Typography>
             }
@@ -108,7 +124,11 @@ function App() {
               ></StyledSwitch>
             }
             label={
-              <Typography variant="body2" style={{ fontFamily: "Lora" }}>
+              <Typography
+                className="switch_label"
+                variant="body2"
+                style={{ fontFamily: "Lora" }}
+              >
                 SHORT STORIES
               </Typography>
             }

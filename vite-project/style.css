@@ -44,6 +44,7 @@ body {
 .navbar_left {
   font-size: 1.1rem;
 }
+
 .navbar_link {
   text-decoration: none;
   color: #ffffff;
@@ -125,6 +126,7 @@ body {
 .book_description {
   padding: 4rem 8rem;
   font-size: 1.15rem;
+  text-align: center;
 }
 
 .book_buttons {

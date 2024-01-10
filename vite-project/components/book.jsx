@@ -16,8 +16,32 @@ const StyledButton = styled(Button)`
     transform: scale(1.1);
   }
 
-  &.fade {
-    opacity: 1;
+  @media only screen and (min-width: 375px) and (max-width: 600px) {
+    && {
+      padding: 0.2rem 0.5rem;
+      font-size: 0.8rem;
+    }
+    :hover {
+      transform: scale(1.02);
+    }
+  }
+  @media only screen and (min-width: 600px) and (max-width: 800px) {
+    && {
+      padding: 0.3rem 1.2rem;
+      font-size: 1rem;
+    }
+    :hover {
+      transform: scale(1.02);
+    }
+  }
+  @media only screen and (min-width: 800px) and (max-width: 1000px) {
+    && {
+      padding: 0.5rem 2rem;
+      font-size: 1.2rem;
+    }
+    :hover {
+      transform: scale(1.02);
+    }
   }
 `;
 
