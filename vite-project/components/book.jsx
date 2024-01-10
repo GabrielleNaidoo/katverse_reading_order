@@ -1,5 +1,21 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import { Button } from "@mui/material";
+import styled from "@emotion/styled";
+
+const StyledButton = styled(Button)`
+  && {
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 1rem 4rem;
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  :hover {
+    transform: scale(1.1);
+  }
+`;
 
 function BookComponent(props) {
   return (
@@ -22,7 +38,7 @@ function BookComponent(props) {
                 href={props.singleBookData.ebook}
                 target="blank"
               >
-                <button>EBOOK</button>
+                <StyledButton variant="outlined">EBOOK</StyledButton>
               </a>
             </div>
           ) : null}
@@ -33,7 +49,7 @@ function BookComponent(props) {
                 href={props.singleBookData.boxset}
                 target="blank"
               >
-                <button>BOXSET</button>
+                <StyledButton variant="outlined">BOXSET</StyledButton>
               </a>
             </div>
           ) : null}
@@ -44,7 +60,7 @@ function BookComponent(props) {
                 href={props.singleBookData.audio}
                 target="blank"
               >
-                <button>AUDIOBOOK</button>
+                <StyledButton variant="outlined">AUDIOBOOK</StyledButton>
               </a>
             </div>
           ) : null}

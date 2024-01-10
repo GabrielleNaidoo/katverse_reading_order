@@ -5,7 +5,7 @@ export const bookData = [
     title: "Soul Bound",
     subtitle: "Prequel to the Kat Drummond Series",
     ebook: "https://books2read.com/u/3yQYyL",
-    description: "Even in this world of magic and monsters, moving out shouldn’t be too hard, right? With help from the ghost in my head, I hunt monsters to pay the bills and pay my way through university.Now it’s time I finally get my own place.Through lopping off zombie and giant rat heads, I should have enough money, right?  But if there’s anything consistent about living in Hope City, things are seldom easy.My name is Kat Drummond, and I’m a part- time monster hunter.",
+    description: "Even in this world of magic and monsters, moving out shouldn’t be too hard, right? With help from the ghost in my head, I hunt monsters to pay the bills and pay my way through university. Now it’s time I finally get my own place. Through lopping off zombie and giant rat heads, I should have enough money, right?  But if there’s anything consistent about living in Hope City, things are seldom easy. My name is Kat Drummond, and I’m a part- time monster hunter.",
     image: 1,
   },
   {
@@ -16,7 +16,7 @@ export const bookData = [
     ebook: "https://books2read.com/u/4DPBqk",
     boxset: "https://books2read.com/u/4DD2kd",
     audio: "https://nicholaswoodesmith.gumroad.com/l/ptmh",
-    description: "Kat hits it big when a run in with a hostile ghost leads to her entering the big leagues of monster hunting. But does she really have what it takes to face the biggest horrors that Hope City has to offer? This is the best place to start your journey inthe Katverse, introducing Kat, her friends and Hope City in all its horrific splendour.",
+    description: "Kat hits it big when a run in with a hostile ghost leads to her entering the big leagues of monster hunting. But does she really have what it takes to face the biggest horrors that Hope City has to offer? This is the best place to start your journey in the Katverse, introducing Kat, her friends and Hope City in all its horrific splendour.",
     image: 2,
 
   },
@@ -68,7 +68,7 @@ export const bookData = [
     subtitle: "Book five",
     ebook: "https://books2read.com/u/mV8vAp",
     boxset: "https://books2read.com/u/49LZw0",
-    description: "Kat has been captured by her mortal enemy, the Necrolord.Imprisoned in darkness, Kat will need to resist temptation, andface the truth of her world and her past. But is she powerful enough to resist the temptations of the darkness? And can her friends find her in time?",
+    description: "Kat has been captured by her mortal enemy, the Necrolord. Imprisoned in darkness, Kat will need to resist temptation, and face the truth of her world and her past. But is she powerful enough to resist the temptations of the darkness? And can her friends find her in time?",
     image: 7,
   },
   {
@@ -78,7 +78,7 @@ export const bookData = [
     subtitle: "Book six",
     ebook: "https://books2read.com/u/mV8vAp",
     boxset: "https://books2read.com/u/49LZw0",
-    description: "  Now free, Kat is feeling lost. This isn’t helped by the fact that her license has been revoked. The events surrounding the Necrolord has not made Kat any new friends, and now she must find a new way to keep the hunt alive. Even if that may require some divine intervention.",
+    description: "Now free, Kat is feeling lost. This isn’t helped by the fact that her license has been revoked. The events surrounding the Necrolord has not made Kat any new friends, and now she must find a new way to keep the hunt alive. Even if that may require some divine intervention.",
     image: 8,
   },
   {
@@ -88,7 +88,7 @@ export const bookData = [
     subtitle: "Book seven",
     ebook: "https://books2read.com/u/boye6Z",
     boxset: "https://books2read.com/u/49LZw0",
-    description: "  This isn’t Hope City. Kat and Treth have been teleported to another world. A dead world, ravaged by the undead. Can they ever return home? And what is this mysterious world?",
+    description: "This isn’t Hope City. Kat and Treth have been teleported to another world. A dead world, ravaged by the undead. Can they ever return home? And what is this mysterious world?",
     image: 9,
   },
   {
@@ -98,7 +98,7 @@ export const bookData = [
     subtitle: "Book eight",
     ebook: "https://books2read.com/u/md1EKW",
     boxset: "https://books2read.com/u/49LZw0",
-    description: " As Kat returns to Earth, a friend returns to Kat. But she’s in trouble. Fortunately, Kat is no stranger to trouble. But this is Hope City, and trouble comes not in twos or threes, but tidal waves. Old mentors become enemies, and monsters become allies asKat learns that the world isn’t black or white. Often, it’s silver.",
+    description: "As Kat returns to Earth, a friend returns to Kat. But she’s in trouble. Fortunately, Kat is no stranger to trouble. But this is Hope City, and trouble comes not in twos or threes, but tidal waves. Old mentors become enemies, and monsters become allies as Kat learns that the world isn’t black or white. Often, it’s silver.",
     image: 10,
   },
   {
@@ -108,7 +108,7 @@ export const bookData = [
     subtitle: "Book nine",
     ebook: "https://books2read.com/u/3nX1eK",
     boxset: "https://books2read.com/u/38ez0Z",
-    description: " A plague has fallen on Hope City. And Kat may be the only one who can stop it. But to do so, she will need every bit of power, skill and alliance that she has built over her career. And even then, it may not be enough. But that won’t stop Kat. When there is one last light left, there is hope.",
+    description: "A plague has fallen on Hope City. And Kat may be the only one who can stop it. But to do so, she will need every bit of power, skill and alliance that she has built over her career. And even then, it may not be enough. But that won’t stop Kat. When there is one last light left, there is hope.",
     image: 11,
   },
   {
@@ -127,7 +127,7 @@ export const bookData = [
     subtitle: "A Katverse Novel",
     ebook: "https://books2read.com/u/bzV2pq",
     boxset: "https://books2read.com/u/38ez0Z",
-    description: "       Vampires took everything from Guy Mgebe. And now, he will have his revenge. But to take revenge upon the Children of Blood is not easy. Guy will need to become more than human. More than a  warrior. He must become a Blood Hunter, and dedicate his life to hunting the vampires who took his life from him.",
+    description: "Vampires took everything from Guy Mgebe. And now, he will have his revenge. But to take revenge upon the Children of Blood is not easy. Guy will need to become more than human. More than a  warrior. He must become a Blood Hunter, and dedicate his life to hunting the vampires who took his life from him.",
     image: 13,
   },
   {
@@ -137,7 +137,7 @@ export const bookData = [
     subtitle: "Book ten",
     ebook: "https://books2read.com/u/bzV2pj",
     boxset: "https://books2read.com/u/bzV2pj",
-    description: " Kat can’t trust anyone, as a new villain targets her and her friends in a life or death chess match that embroils the city and threatens everything Kat has saved and built. But with new allies, new fame, and new powers, Kat is ready to face a new dark order – and resist its domination.",
+    description: "Kat can’t trust anyone, as a new villain targets her and her friends in a life or death chess match that embroils the city and threatens everything Kat has saved and built. But with new allies, new fame, and new powers, Kat is ready to face a new dark order – and resist its domination.",
     image: 14,
   },
   {
@@ -177,7 +177,7 @@ export const bookData = [
     subtitle: "Book thirteen",
     ebook: "https://books2read.com/u/4Avogp",
     boxset: "https://books2read.com/u/4960Rp",
-    description: " The Izingane Zegazi, the Children of Blood, have finally caught up to Guy Mgebe. And they are coming with a vengeance. But Guy has new allies now. Kat Drummond and the Crusaders will hold the line again vampire, monster, or beast. Even if it means finding new allies in dark places.",
+    description: "The Izingane Zegazi, the Children of Blood, have finally caught up to Guy Mgebe. And they are coming with a vengeance. But Guy has new allies now. Kat Drummond and the Crusaders will hold the line again vampire, monster, or beast. Even if it means finding new allies in dark places.",
     image: 18,
   },
   {
@@ -206,7 +206,7 @@ export const bookData = [
     title: "Shadow Realm",
     subtitle: "Book fifteen",
     ebook: "https://books2read.com/u/47gwkR",
-    description: "  Kat doesn’t want to fight a war, but if it means ending the threat of the Conclave once and for all, she will follow Thor into the bowels of Europe and fight the most brutal war on the continent since the Cataclysm. But first, she must get there, and travel through darkness and shadows that she has never faced before – putting her truly to the test as not just the bearer of the Vessel, but as the Last Light.",
+    description: "Kat doesn’t want to fight a war, but if it means ending the threat of the Conclave once and for all, she will follow Thor into the bowels of Europe and fight the most brutal war on the continent since the Cataclysm. But first, she must get there, and travel through darkness and shadows that she has never faced before – putting her truly to the test as not just the bearer of the Vessel, but as the Last Light.",
     image: 21,
   },
   {
@@ -215,7 +215,7 @@ export const bookData = [
     title: "The Titan Awakes",
     subtitle: "Book sixteen",
     ebook: "https://books2read.com/u/bOPWwJ",
-    description: "Kat, Treth, Brett and Candace return to a Hope City on the eve of invasion.Exhausted by the war in Europe, none of them want to fight another one. But what choice do they have with their home threatened with annihilation ? But, the true threat to HopeCity may not be the invaders at the gates – but the very titanresting so fitfully at its heart.",
+    description: "Kat, Treth, Brett and Candace return to a Hope City on the eve of invasion. Exhausted by the war in Europe, none of them want to fight another one. But what choice do they have with their home threatened with annihilation? But, the true threat to Hope City may not be the invaders at the gates – but the very titan resting so fitfully at its heart.",
     image: 22,
   },
   {
@@ -224,7 +224,7 @@ export const bookData = [
     title: "Demonic Departure",
     subtitle: "A Hammond York Short Story",
     ebook: "https://books2read.com/u/4EJj2M",
-    description: " Hammond York is the best damn pyromancer in Hope City. Not that it would show lately. Ever since losing his cat in a brutal divorce, he’s lost his edge. But now, he’s dedicated to getting it back – alongside his cat. Problem is, while his ex-wife has his cat and his house, he can’t even remember marrying her.",
+    description: "Hammond York is the best damn pyromancer in Hope City. Not that it would show lately. Ever since losing his cat in a brutal divorce, he’s lost his edge. But now, he’s dedicated to getting it back – alongside his cat. Problem is, while his ex-wife has his cat and his house, he can’t even remember marrying her.",
     image: 23,
   },
   {

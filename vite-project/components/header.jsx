@@ -1,7 +1,13 @@
-import React from "react";
+import { useEffect } from "react";
 import ReactDOM from "react-dom/client";
 
 function Header() {
+  useEffect(() => {
+    setTimeout(() => {
+      document.querySelector(".header").style.opacity = 1;
+    }, 150);
+  }, []);
+
   return (
     <div className="header">
       <h1 className="header_title">THE KATVERSE</h1>
